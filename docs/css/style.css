@@ -14,7 +14,7 @@
 .container {position: relative; width: 1280px; margin: 0 auto; background: rgba(0, 0, 0, 0.0);}
 
 /* 헤더 영역 */
-.header {border-bottom: 1px solid #c6c6c6;}
+.header {}
 .header h1 {float: left; font-size: 50px; padding: 10px 20px 10px 20px;}
 .header h1 .logo1 {padding: 10px 20px 10px 20px; display:inline-block;}
 .header h1 .logo1 img {width: 40px;}
@@ -25,14 +25,10 @@
 
 .nav {}
 .nav ul {}
-.nav ul li {float: left; text-align: center; border-right: 1px solid #c6c6c6;}
+.nav ul li {float: left; text-align: center;}
 .nav ul li a {display: block; padding: 10px 30px 10px 30px; font-size: 20px; font-weight: 700; color: #444;}
-
-/* 삭제예정 */
-.header .nav {float: right;}
-.header .nav ul {border-left: 1px solid #c6c6c6;}
-.header .nav ul li {float: left; width: 130px; text-align: center; border-right: 1px solid #c6c6c6;}
-.header .nav ul li a {display: block; padding: 25px 20px; font-size: 30px; font-weight: 700; color: #444;}
+.nav ul li.active a {border-bottom:2px solid #c4c4c4;}
+.nav ul li a:hover {background: #666; color: #fff;}
 
 /* 포스터 영역 */
 .exh {padding: 60px 0 60px 0; text-align: center;}
