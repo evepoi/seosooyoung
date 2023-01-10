@@ -15,7 +15,7 @@
 
 /* 헤더 영역 */
 .header {border-bottom: 1px solid #c6c6c6;}
-.header h1 {float: left; }
+.header h1 {float: left; font-size: 50px; padding: 10px 20px 10px 20px;}
 .header h1 .logo1 {padding: 10px 20px 10px 20px; display:inline-block;}
 .header h1 .logo1 img {width: 70px;}
 .header h1 .logo2 {display:inline-block;}
