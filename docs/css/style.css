@@ -32,7 +32,7 @@
 .nav ul li a:hover {background: #666; color: #fff;}
 
 /* 메인 영역 */
-.main {padding: 15px 0 60px 0;}
+.main {padding: 15px 0 30px 0;}
 .main_title {}
 .main_title h3 {text-align: center; font-size: 50px; padding: 10px 30px 10px 30px;}
 .left {float: left; width: 30%;}
@@ -41,7 +41,7 @@
 .right h3 {margin-top: 10px; font-size: 20px;}
 
 /* 포스터 영역 */
-.exh {padding: 60px 0 15px 0; text-align: center;}
+.exh {padding: 30px 0 60px 0; text-align: center;}
 .poster_title {margin-bottom: 60px;}
 .poster_title ul {overflow: hidden; width: 603px; margin: 0 auto;}
 .poster_title ul li {float: left; width: 270px; text-align: center; border: 1px solid #c4c4c4; margin-right: -1px;}
@@ -146,7 +146,7 @@
 .artlist > div > div .artlist_infor h3 {text-align: left; font-weight: 400; font-size: 15px; padding: 5px 0 5px 0;}
 .artlist > div > div .artlist_infor h4 {text-align: left; font-weight: 300; font-size: 10px; padding: 5px 0 5px 0; color: #c4c4c4;}
 
-/* Footer 영역 */
+/* Footer 영역 
 .footer_sns {position: absolute; right: 17px; top: 33px; z-index: 1;}
 .footer_sns li {display: inline-block;}
 .footer_sns li a {display: block; width: 36px; height: 36px;}
@@ -159,6 +159,7 @@
 .footer_sns .tel {text-align: right; padding-top: 5px;}
 .footer_sns .tel a {color: #8f8f8f; font-size: 21px;}
 .footer_sns .tel a em {color: #fff;}
+*/
 
 .footer_info {padding: 50px 0; width: 80%;}
 .footer_info h2 img {width: 100px;}
@@ -167,7 +168,7 @@
 .footer_info li:after {content: ''; position: absolute; right: -10px; top: 5px; width: 1px; height: 11px; background: #8f8f8f;}
 .footer_info li:last-child:after {width: 0; height: 0;}
 .footer_info li a {color: #8f8f8f;}
-.footer_info address {position: absolute; left: 120px; top: 90px;}
+.footer_info address {position: absolute; left: 120px; top: 20px;}
 .footer_info address p {color: #8f8f8f; padding-bottom: 15px;}
 
 /* 미디어쿼리 */
